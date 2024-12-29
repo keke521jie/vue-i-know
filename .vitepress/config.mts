@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Vue3 I Know",
   description: "Learn the Vue3 code",
   srcDir: './src',
+  base: '/vue-i-know/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
