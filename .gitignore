@@ -1,0 +1,54 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+/.vitepress/dist/
+
+# Local environment files
+.env
+.env.*.local
+
+# Editor-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.~lock.*
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+
+# Coverage output
+/coverage/
+
+# npm cache
+.npm/
+
+# Yarn and PNPM
+.pnp/
+.pnp.js
+yarn.lock
+pnpm-lock.yaml
+
+# VitePress specific
+/.vitepress/cache/
